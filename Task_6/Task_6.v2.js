@@ -19,4 +19,3 @@ var Push = function foo (){
 	;
 	return [arr, result];
 }
-sfdsfsd
