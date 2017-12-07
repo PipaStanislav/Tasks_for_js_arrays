@@ -27,7 +27,7 @@ function compareRandom() {
 }
 var dec = [];
 var asc = [];
-for (var i = 0; i <= arr2.length; i++){
+for (var i = 0; i < arr2.length; i++){
 	if (i < x){
 		dec.push(arr2[i]);
 	}
@@ -59,7 +59,7 @@ document.write (""
 	,"<br> arr " , arr
 	,"<br> arr2 " ,	arr2
 	,"<br> "
-	,"<br> numm " , num
+	,"<br> num " , num
 	,"<br> x " , x
 	,"<br> "
 	,"<br> dec " , dec
